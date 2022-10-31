@@ -10,12 +10,12 @@ dept_no VARCHAR(5) FK >- department.dept_no
 
 dept_manager
 -
-emp_no INTEGER FK 0- employee.emp_no
 dept_no VARCHAR(5) FK >- department.dept_no
+emp_no INTEGER FK 0- employee.emp_no
 
 employee
 -
-emp_no INTEGER FK - salary.emp_no
+emp_no INTEGER PK
 emp_title_id VARCHAR(5) FK >- title.title_id
 birth_date DATE  
 first_name VARCHAR(30)
@@ -25,7 +25,7 @@ hire_date DATE
 
 salary
 -
-emp_no INTEGER
+emp_no INTEGER FK - employee.emp_no
 salary INTEGER 
 
 title
