@@ -52,27 +52,35 @@ CSV files to be manually imported to pgAdmin in the following order:
 The following items have been analysed and SQL queries prepared into **`sql-challenge_queries.sql`** script file:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+
 ![Query 1](images/query-1.png)
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
+
 ![Query 2](images/query-2.png)
 
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
+
 ![Query 3](images/query-3.png)
 
 4. List the department of each employee with the following information: employee number, last name, first name, and department name.
+
 ![Query 4](images/query-4.png)
 
 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
+
 ![Query 5](images/query-5.png)
 
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
+
 ![Query 6](images/query-6.png)
 
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+
 ![Query 7](images/query-7.png)
 
 8. List the frequency count of employee last names (i.e., how many employees share each last name) in descending order.
+
 ![Query 8](images/query-8.png)
 
 
@@ -81,10 +89,13 @@ The following items have been analysed and SQL queries prepared into **`sql-chal
 The following activities being done as bonus through importing the SQL database into Pandas and generating some plots:
 
 1. Import the SQL database into Pandas.
+
 ![Bonus 1](images/bonus-1.png)
 
 2. Create a histogram to visualize the most common salary ranges for employees.
+
 ![Bonus 2](images/bonus-2.png)
 
 3. Create a bar chart of average salary by title.
+
 ![Bonus 3](images/bonus-3.png)
